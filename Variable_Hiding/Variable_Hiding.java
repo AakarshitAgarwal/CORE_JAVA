@@ -4,7 +4,7 @@ class Parent
 }
 class Child extends Parent
 {
- static
+ static //static member variables do not inherit
  {y=5;}
 }
 public class Variable_Hiding
