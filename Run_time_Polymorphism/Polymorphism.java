@@ -25,8 +25,8 @@ public class Polymorphism
   A obj3=new B();
   obj.m1();   //class A
   obj1.m1();  //class B
-  System.out.println(obj2.i);
-  System.out.println(obj3.i);  
+  System.out.println(obj2.i);  //i=10 ,datatype do not inherit
+  System.out.println(obj3.i);  //i=10
   }
 }  
 
